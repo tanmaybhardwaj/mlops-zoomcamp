@@ -11,7 +11,7 @@
 
 <p>This repository tracks my work done as part of the MLops zoomcamp organised by DataTalksClub .
    The course's complete repository could be accessed on <a href="https://github.com/DataTalksClub/mlops-zoomcamp" rel="nofollow"> Github </a> 
-   and the video playlist on
+   and the video playlist is available on
    <a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK" rel="nofollow"> Youtube. </a> 
 </p>
 
