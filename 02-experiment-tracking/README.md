@@ -17,7 +17,7 @@
 <h3> Q1.Install MLflow </h3>
   <p> What's the version that you have? </p>
   <p> Answer : 1.26.0 </p>
-<img src="https://raw.githubusercontent.com/tanmaybhardwaj/mlops-zoomcamp/main/02-experiment-tracking/images/mlflow_version.png" width="600" height="400">
+<img src="https://raw.githubusercontent.com/tanmaybhardwaj/mlops-zoomcamp/main/02-experiment-tracking/images/mlflow_version.png" width="800" height="300">
 
 <h3> Q2.Download and preprocess the data </h3>
   <p> How many files were saved to OUTPUT_FOLDER? </p>
