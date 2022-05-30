@@ -19,5 +19,14 @@
   <p> Answer : 1.26.0 </p>
   
 ![Answer 1](/02-experiment-tracking/images/mlflow_version.png)
+
+<h3> Q2.Download and preprocess the data </h3>
+  <p> How many files were saved to OUTPUT_FOLDER? </p>
+  <p> Answer : 7 </p>
+  
+![Answer 2](/02-experiment-tracking/images/number_of_files.png)
+
+
+
   
 
