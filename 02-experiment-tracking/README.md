@@ -18,6 +18,6 @@
   <p> What's the version that you have? </p>
   <p> Answer : 1.26.0 </p>
   
-(/images/mlflow_version.png)
+![Answer 1](/02-experiment-tracking/images/mlflow_version.png)
   
 
