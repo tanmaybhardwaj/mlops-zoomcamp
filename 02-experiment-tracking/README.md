@@ -18,13 +18,19 @@
   <p> What's the version that you have? </p>
   <p> Answer : 1.26.0 </p>
   
-![Answer 1](/02-experiment-tracking/images/mlflow_version.png)
+![Answer 1](/02-experiment-tracking/images/mlflow_version.png =500X300)
 
 <h3> Q2.Download and preprocess the data </h3>
   <p> How many files were saved to OUTPUT_FOLDER? </p>
   <p> Answer : 7 </p>
   
-![Answer 2](/02-experiment-tracking/images/number_of_files.png)
+![Answer 2](/02-experiment-tracking/images/number_of_files.png =250X250)
+
+<h3> Q3.Train a model with autolog </h3>
+  <p> How many parameters are automatically logged by MLflow?? </p>
+  <p> Answer : 17 </p>
+  
+![Answer 2](/02-experiment-tracking/images/number_of_parameters.png =300X300)
 
 
 
