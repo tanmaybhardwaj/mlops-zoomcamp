@@ -17,6 +17,7 @@
 <h3> Q1.Install MLflow </h3>
   <p> What's the version that you have? </p>
   <p> Answer : 1.26.0 </p>
- !(/images/mlflow_version.png)
+  
+(/images/mlflow_version.png)
   
 
