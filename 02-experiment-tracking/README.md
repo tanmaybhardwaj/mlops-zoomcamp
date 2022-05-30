@@ -15,8 +15,8 @@
 <h3> 2.7 Homework </h2>
 
 <h3> Q1.Install MLflow </h3>
-  <h4> What's the version that you have? </h3>
-  <h4> Answer : 1.26.0 </h4>
-  (https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/02-experiment-tracking/images/mlflow_version.png)
+  <p> What's the version that you have? </p>
+  <p> Answer : 1.26.0 </p>
+ (https://raw.githubusercontent.com/tanmaybhardwaj/mlops-zoomcamp/main/02-experiment-tracking/images/mlflow_version.png))
   
 
