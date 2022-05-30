@@ -55,5 +55,5 @@ What is the test RMSE of the best model?
 
 Answer 6.55
   
-<img src="https://raw.githubusercontent.com/tanmaybhardwaj/mlops-zoomcamp/main/02-experiment-tracking/images/best_test_rmse.png" width="700" height="400">
+
 
