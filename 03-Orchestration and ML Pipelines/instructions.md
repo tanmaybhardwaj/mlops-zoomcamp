@@ -50,3 +50,14 @@ prefect orion start
 If successful the server user interface will be served at http://127.0.0.1:4200/
 
 <img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/orion%20server%20startup.png" width="700" height="300">
+
+#### 10. Run python code homework.py 
+```bash
+python homework.py
+```
+If successful, MSE values of training and validations sets will be printed on command line and succesful workflow will be visible in the Prefect Interface.
+
+<img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/successful%20flow-01%20.png" width="700" height="300">
+
+<img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/successful%20flow-02.png" width="700"
+     height="300">
