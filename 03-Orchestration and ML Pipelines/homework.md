@@ -16,3 +16,36 @@ What is the validation MSE when running the flow for ```main(date="2021-08-15")`
 #### Answer : 11.637
 
 <img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/question-02-results.png" width="900" height="300">
+
+#### Q3. Saving the model and artifacts
+
+What is the file size of the DictVectorizer that we trained when the date is 2021-08-15?
+
+- 13,000 bytes
+- 23,000 bytes
+- 33,000 bytes
+- 43,000 bytes
+
+#### Answer: 13,000 bytes
+
+#### Q4. Creating a deployment with a CronSchedule
+
+What is the Cron expression to run a flow at 9 AM every 15th of the month?
+
+- ```* * 15 9 0```
+- ```9 15 * * *```
+- ```0 9 15 * *```
+- ```0 15 9 1 *```
+
+#### Answer: ```0 9 15 * *```
+
+#### Q5. Viewing the Deployment
+
+How many flow runs are scheduled by Prefect in advance? You should not be counting manually. There is a number of upcoming runs on the top right of the dashboard.
+
+- 0
+- 3
+- 10
+- 25
+
+#### Answer: 15
