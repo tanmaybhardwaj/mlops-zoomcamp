@@ -61,3 +61,57 @@ If successful, MSE values of training and validations sets will be printed on co
 
 <img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/successful%20flow-02.png" width="700"
      height="300">
+
+## Running Prefect remotely on AWS 
+
+ - Login to AWS Console and create an EC2 instance
+ - A basic t2-micro instance will be sufficient.
+ - Ensure the security groups assigned to the EC2 instance has below mentioned inbound rules:
+ 
+ <img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/ec2-security-group.png" width="700"
+     height="300">
+ 
+ - Change current directory to .ssh directory
+     - ```cd /Users/txxxxxxxxxxxxj/.ssh
+
+ - Connect/SSH to the EC2 instance
+     - ```ssh -i "key-name.pem" ec2-user@ec2-99-999-99-999.eu-west-2.compute.amazonaws.com```
+ 
+ - Install Pip (for Linux Only)
+     - ```sudo yum -y install python-pip```
+    
+ - Install Conda
+     - ```wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh```
+     - ```sh Anaconda3-2020.02-Linux-x86_64.sh```
+     - ```source ~/.bashrc```     
+ 
+ - Create & Activate Conda environment
+     -```conda create --name <environment name> python=3.9``` 
+     -```conda activate <environment name> 
+ 
+ - Install Prefect
+          - ```pip install prefect==2.0b5```
+     
+  - Configure Prefect (Run on Local)  
+     - ```prefect config set PREFECT_ORION_UI_API_URL="http://<ec2 public ip address>:4200/api"```
+
+  - View Prefect Configuration (Run on Local) 
+     - ```prefect config view```
+
+  - Command to Change Prefect Configuration (Run on Local) 
+     - ```prefect config unset <variable name>``` e.g. <PREFECT_ORION_UI_API_URL>   
+   
+  - Start Orion Server (Run on VM) 
+     - ```prefect orion start --host 0.0.0.0``` 
+     - If successful, Orion server UI will be served as below:
+     <img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/orion%20server%20aws.png"
+          width="700" height="300">
+          
+  - From the local machine\terminal, configure to access the API
+     - ```prefect config set PREFECT_API_URL="http://<ec2 public ip address>:4200/api"```
+
+  - From the local system, run python code homework.py 
+     - ```bash python homework.py```
+    
+         If successful, MSE values of training and validations sets will be printed on command line and succesful workflow will be visible in the Prefect          Interface hosted on the AWS.
+ 
