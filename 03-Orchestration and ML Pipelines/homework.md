@@ -8,7 +8,7 @@ We want to bring this to workflow orchestration to add observability around it. 
 - train_model
 - run_model
 
-#### Answer: train_model (please follow homework.py file for code details)
+#### Answer: train_model (for code details please follow homework.py file inside code folder)
 
 
 #### Q2. Parameterizing the flow
