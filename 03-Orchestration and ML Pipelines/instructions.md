@@ -62,6 +62,29 @@ If successful, MSE values of training and validations sets will be printed on co
 <img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/successful%20flow-02.png" width="700"
      height="300">
 
+#### 11. Check location to store Prefect Artifacts 
+```bash
+prefect storage ls
+```
+
+#### 12. Create location to store Prefect Artifacts 
+```bash
+prefect storage create
+```
+
+#### 13. Create the deployment schedule
+```bash
+prefect deployment create <python code.py>
+```
+
+#### 14. Create the deployment schedule
+```bash
+prefect deployment create <python code.py>
+```
+If succesful, future runs will be visible as below: 
+
+<img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/scheduled-runs.png" width="700" height="400">
+
 ## Running Prefect remotely on AWS 
 
  - Login to AWS Console and create an EC2 instance
