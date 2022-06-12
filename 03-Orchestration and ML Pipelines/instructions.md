@@ -107,7 +107,7 @@ prefect work-queue preview <unique code of the work queue>
      height="300">
  
  - Change current directory to .ssh directory
-     - ```cd /Users/txxxxxxxxxxxxj/.ssh
+     - ```cd /Users/txxxxxxxxxxxxj/.ssh```
 
  - Connect/SSH to the EC2 instance
      - ```ssh -i "key-name.pem" ec2-user@ec2-99-999-99-999.eu-west-2.compute.amazonaws.com```
