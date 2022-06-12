@@ -48,4 +48,16 @@ How many flow runs are scheduled by Prefect in advance? You should not be counti
 - 10
 - 25
 
-#### Answer: 15
+#### Answer: 3
+
+
+#### Q6. Creating a work-queue
+
+What is the command to view the available work-queues?
+
+- ```prefect work-queue inspect```
+- ```prefect work-queue ls```
+- ```prefect work-queue preview```
+- ```prefect work-queue list```
+
+#### Answer: ```prefect work-queue preview```
