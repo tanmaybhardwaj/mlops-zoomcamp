@@ -85,6 +85,18 @@ If succesful, future runs will be visible as below:
 
 <img src="https://github.com/tanmaybhardwaj/mlops-zoomcamp/blob/main/03-Orchestration%20and%20ML%20Pipelines/images/scheduled-runs.png" width="700" height="400">
 
+#### 15. Create a work queue using the Prefect Interface and save the unique id generated
+
+#### 16. View a list of existing work queues
+```bash
+prefect work-queue ls
+```
+
+#### 17. View future schedules of an existing work queue
+```bash
+prefect work-queue preview <unique code of the work queue>
+```
+
 ## Running Prefect remotely on AWS 
 
  - Login to AWS Console and create an EC2 instance
